@@ -1,0 +1,1 @@
+export const gutter = {xs: 8, sm: 8, md: 12}

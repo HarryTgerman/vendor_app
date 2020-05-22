@@ -1,0 +1,45 @@
+{
+  "name": "vendorapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.25.2",
+    "axios": "^0.19.0",
+    "dateformat": "^3.0.3",
+    "env-cmd": "^10.0.1",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-collapsed": "^2.1.1",
+    "react-dom": "^16.8.6",
+    "react-moment": "^0.9.7",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "PORT=3001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "REACT_APP_STAGE=dev npm run build",
+    "predeploy:staging": "NODE_ENV=staging env-cmd -f .env.staging npm run build",
+    "deploy": "aws s3 sync build/ s3://vendor.mysoftwarescout.de",
+    "predeploy:prod": "REACT_APP_STAGE=production npm run build",
+    "deploy:staging": "aws s3 sync build/ s3://staging.vendor.mysoftwarescout.de",
+    "deploy:prod": "aws s3 sync build/ s3://vendor.mysoftwarescout.de",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

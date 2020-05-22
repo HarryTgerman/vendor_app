@@ -1,0 +1,66 @@
+@font-face {
+  font-family: SFUIText;
+  font-weight: normal;
+  font-style: normal;
+  src: url("./assets/fonts/SFUIText-Regular.ttf");
+}
+
+@font-face {
+  font-family: SFUIText;
+  font-weight: bold;
+  src: url("./assets/fonts/SFUIText-Bold.ttf");
+  font-style: bold;
+}
+
+@font-face {
+  font-family: SFUIText;
+  font-weight: normal;
+  src: url("./assets/fonts/SFUIText-LightItalic.ttf");
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.Impressum {
+  margin: auto;
+  font-family: "SFUIText";
+}
+
+.Impressum h2 {
+  margin-top: 20px;
+}
+
+.Impressum .headline li {
+  margin: 20px 0;
+}
+
+.Impressum .headline a {
+  text-decoration: underline;
+  color: #282c47;
+  opacity: 0.85;
+}
+
+.Impressum .headline a:hover {
+  opacity: 1;
+}
+
+.Impressum .headline p {
+  height: auto;
+  font-size: 16px !important;
+}
+
+.Impressum .headline h3 {
+  margin: 20px 0;
+}

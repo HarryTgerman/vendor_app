@@ -1,0 +1,513 @@
+.footerLink {
+  margin-right: auto !important;
+  margin-left: auto !important;
+  font-size: 0.875em;
+
+  color: #7e8091 !important;
+}
+
+.leadinfoPage {
+  .ant-layout-footer {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #7e8091;
+    width: auto;
+  }
+
+  span {
+    color: #266ad2;
+  }
+
+  .leadNumber {
+    font-family: SFUIText;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #7e8091;
+    margin-left: auto;
+  }
+  .header {
+    h1 {
+      font-family: SFUIText-Semibold;
+      font-size: 2em;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      color: #282c47;
+      margin: 0 auto 14px auto;
+    }
+    .subline {
+      max-width: 580px;
+      width: 100%;
+      height: auto;
+      font-family: SFUIText;
+      font-size: 1.25em;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      color: #7e8091;
+      margin: 0 auto 56px auto;
+    }
+    .inlineFLex {
+      svg {
+        margin-right: 8px;
+      }
+      p {
+        font-family: SFUIText-Medium;
+        font-size: 1.25em;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        
+        letter-spacing: normal;
+        color: var(--dark-indigo);
+        margin: 0;
+      }
+      .inlineFLex {
+        margin-right: 32px;
+      }
+    }
+  }
+  .infoCard {
+    .ant-card {
+      .ant-card-head {
+        background-color: rgba(190, 191, 200, 0.1) !important;
+        padding: 0 40px;
+        .ant-card-head-title {
+          padding: 40px 0;
+          white-space: normal;
+          .ant-btn {
+            align-items: center;
+            display: flex;
+            align-self: flex-end;
+            float: right;
+            flex-direction: row;
+            justify-content: center;
+            max-width: 215px;
+          }
+          .leftsidewapper {
+            text-align: left;
+            .key-title {
+              font-size: 1.125em;
+              font-weight: 600;
+              font-stretch: normal;
+              font-style: normal;
+              
+              letter-spacing: normal;
+              color: var(--dark-indigo);
+              font-family: SFUIText;
+            }
+            .value {
+              width: auto;
+              height: auto;
+              font-family: SFUIText;
+              font-size: 1.125em;
+              letter-spacing: normal;
+              color: #266ad2;
+            }
+          }
+        }
+      }
+      border-radius: 8.1px;
+      box-shadow: 0 0 16.2px 0 rgba(9, 30, 66, 0.1), 0 0 1px 0 rgba(9, 30, 66, 0.31);
+      .ant-card-body {
+        padding: 24px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        @media screen and (max-width: 415px) {
+          padding: 16px;
+        }
+        span {
+          color: #266ad2;
+        }
+        .heading {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-content: center;
+          align-items: center;
+          p {
+            font-family: SFUIText-Medium;
+            font-size: 1.25em;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            
+            letter-spacing: normal;
+            color: var(--dark-indigo);
+            margin: 0 0 0 16px;
+          }
+        }
+        .checkmarks {
+          margin-top: 16px;
+          &:first-child {
+            margin-top: 0;
+          }
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-content: center;
+          align-items: center;
+          svg {
+            margin-right: 12px;
+          }
+          p {
+            font-family: SFUIText;
+            font-size: 1em;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            
+            letter-spacing: normal;
+            color: var(--dark-indigo);
+          }
+          span {
+            color: #266ad2;
+          }
+        }
+        .confirm {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-content: flex-start;
+          align-items: flex-start;
+          .discountedPrice {
+            text-align: left;
+            margin-bottom: 20px;
+            color: #7e8091;
+            font-size: 0.875em;
+          }
+          .terminAnfragen {
+            margin-left: 24px;
+            font-family: SFUIText-Medium;
+            font-size: 1em;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            
+            letter-spacing: normal;
+            color: #7e8091;
+          }
+          .price {
+            font-family: SFUIText;
+            font-size: 2em;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            
+            letter-spacing: normal;
+            color: #282c47;
+            margin: 24px 0 8px 0;
+            sup {
+              font-family: SFUIText;
+              font-weight: normal;
+              font-stretch: normal;
+              font-style: normal;
+              letter-spacing: normal;
+              color: #7e8091;
+              b {
+                font-size: 0.6875em;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                color: var(--dark-indigo);
+              }
+            }
+          }
+          .secure {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-content: center;
+            align-items: center;
+            margin-top: 16px;
+            svg {
+              margin-right: 7px;
+            }
+            p {
+              font-family: SFUIText;
+              font-size: 0.6875em;
+              font-weight: normal;
+              font-stretch: normal;
+              font-style: normal;
+              
+              letter-spacing: normal;
+              color: #b0b4c3;
+            }
+          }
+        }
+      }
+    }
+  }
+  .ant-steps {
+    .ant-steps-item-finish {
+      .ant-steps-item-container {
+        .ant-steps-item-tail {
+          &::after {
+            background-color: #266ad2 !important;
+          }
+        }
+        .ant-steps-item-icon {
+          background-color: #266ad2;
+          border-color: #266ad2;
+          color: #fff;
+          height: 32px;
+          width: 32px;
+
+          .ant-steps-icon {
+            color: #fff;
+            height: 16px;
+            width: 16px;
+            font-size: 16px;
+            line-height: 16px;
+          }
+        }
+        .ant-steps-item-content {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          text-align: left;
+          .ant-steps-item-title,
+          .ant-steps-item-title p {
+            font-family: SFUIText-Semibold;
+            font-size: 18px;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            color: var(--dark-indigo);
+          }
+          .ant-steps-item-description {
+            font-family: SFUIText;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            
+            letter-spacing: normal;
+            color: #266ad2;
+            @media screen and (max-width: 36em) {
+              margin-bottom: 10px;
+            }
+          }
+          .subline {
+            font-family: SFUIText;
+            font-size: 1em;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            color: #7e8091;
+          }
+          .secondSubline {
+            font-family: SFUIText-Medium;
+            font-size: 1em;
+            margin-top:10px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            
+            letter-spacing: normal;
+            color: var(--dark-indigo);
+          }
+        }
+        // .vendorEvent:parent {
+        //   width: 29px;
+        //   height: 29px;
+        //   background-color: #266ad2;
+        //   // .ant-steps-item-icon {
+        //   //   width: 29px;
+        //   //   height: 29px;
+        //   //   .ant-steps-icon {
+        //   //     width: 29px;
+        //   //     height: 29px;
+
+        //   //   }
+        //   // }
+        //   .vendorEventIcon {
+        //     width: 29px;
+        //     height: 29px;
+        //     border: solid 4px #ffffff;
+        //     background-color: #266ad2;
+        //   }
+        // }
+      }
+    }
+    .ant-steps-item-process {
+      .ant-steps-item-container {
+        .ant-steps-item-tail {
+          &::after {
+            background-color: #bebfc8;
+          }
+        }
+        .ant-steps-item-icon {
+          background-color: #266ad2;
+          border-color: #266ad2;
+          color: #fff;
+          height: 32px;
+          width: 32px;
+
+          .ant-steps-icon {
+            color: #fff;
+            height: 16px;
+            width: 16px;
+            font-size: 16px;
+            line-height: 16px;
+          }
+        }
+        .ant-steps-item-content {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          text-align: left;
+          .ant-steps-item-title,
+          .ant-steps-item-title p {
+            font-family: SFUIText-Semibold;
+            font-size: 18px;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            color: var(--dark-indigo);
+          }
+          .ant-steps-item-description {
+            font-family: SFUIText;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            
+            letter-spacing: normal;
+            color: #266ad2;
+            @media screen and (max-width: 36em) {
+              margin-bottom: 10px;
+            }
+          }
+          .subline {
+            font-family: SFUIText;
+            font-size: 1em;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            color: #7e8091;
+          }
+          .secondSubline {
+            font-family: SFUIText-Medium;
+            font-size: 1em;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            
+            letter-spacing: normal;
+            color: var(--dark-indigo);
+          }
+        }
+      }
+    }
+    .ant-steps-item-wait {
+      .ant-steps-item-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        .ant-steps-item-title,
+        .ant-steps-item-title p {
+          font-family: SFUIText-Semibold;
+          font-size: 18px;
+          font-stretch: normal;
+          font-style: normal;
+          letter-spacing: normal;
+          color: var(--dark-indigo);
+        }
+        .ant-steps-item-description {
+          font-family: SFUIText;
+          font-size: 16px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          
+          letter-spacing: normal;
+          color: #266ad2;
+          @media screen and (max-width: 36em) {
+            margin-bottom: 10px;
+          }
+        }
+        .subline {
+          font-family: SFUIText;
+          font-size: 1em;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          
+          letter-spacing: normal;
+          color: #7e8091;
+        }
+        .secondSubline {
+          font-family: SFUIText-Medium;
+          font-size: 1em;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          
+          letter-spacing: normal;
+          color: var(--dark-indigo);
+        }
+      }
+      .ant-steps-item-icon {
+        border: solid 1px #bebfc8;
+        color: #bebfc8;
+        background: #fff;
+        height: 32px;
+        width: 32px;
+        .ant-steps-icon {
+          color: #bebfc8;
+          height: 16px;
+          width: 16px;
+          font-size: 17px;
+        }
+      }
+    }
+  }
+  .hintSection {
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: #e9f0fb;
+    padding: 28px 88px;
+    align-self: center;
+    margin-bottom: 156px;
+    p {
+      font-family: SFUIText-Medium;
+      font-size: 1em;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      
+      letter-spacing: normal;
+      color: #266ad2;
+    }
+    @media screen and (max-width: 36em) {
+      padding: 16px;
+    }
+  }
+ 
+
+}
+
+.ant-layout-footer {
+  @media screen and (max-width: 415px) {
+    padding: 16px 0;
+  }
+}
+
+.ant-steps-vertical .ant-steps-item {
+  padding-bottom: 40px;
+}
